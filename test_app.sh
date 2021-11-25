@@ -13,8 +13,6 @@ echo "COPY ./templates /home/myapp/templates/" >> tempdir/Dockerfile
 echo "COPY ./test_app.py /home/myapp/" >> tempdir/Dockerfile
 echo "EXPOSE 8080" >> tempdir/Dockerfile
 echo "CMD python3 /home/myapp/test_app.py" >> tempdir/Dockerfile
-
-
  
 #Lancement du build de l'image testapp à partir de Dockerfile sous /tempdir
 cd tempdir
